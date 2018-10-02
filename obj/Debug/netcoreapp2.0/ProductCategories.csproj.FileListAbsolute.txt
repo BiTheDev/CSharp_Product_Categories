@@ -1,0 +1,11 @@
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day12/ProductCategories/bin/Debug/netcoreapp2.0/ProductCategories.deps.json
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day12/ProductCategories/bin/Debug/netcoreapp2.0/ProductCategories.runtimeconfig.json
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day12/ProductCategories/bin/Debug/netcoreapp2.0/ProductCategories.runtimeconfig.dev.json
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day12/ProductCategories/bin/Debug/netcoreapp2.0/ProductCategories.dll
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day12/ProductCategories/bin/Debug/netcoreapp2.0/ProductCategories.pdb
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day12/ProductCategories/obj/Debug/netcoreapp2.0/ProductCategories.csprojResolveAssemblyReference.cache
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day12/ProductCategories/obj/Debug/netcoreapp2.0/ProductCategories.csproj.CoreCompileInputs.cache
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day12/ProductCategories/obj/Debug/netcoreapp2.0/ProductCategories.AssemblyInfoInputs.cache
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day12/ProductCategories/obj/Debug/netcoreapp2.0/ProductCategories.AssemblyInfo.cs
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day12/ProductCategories/obj/Debug/netcoreapp2.0/ProductCategories.dll
+/Users/Curry30/Desktop/coding_dojo/C#.Net/day12/ProductCategories/obj/Debug/netcoreapp2.0/ProductCategories.pdb

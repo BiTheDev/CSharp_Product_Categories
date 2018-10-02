@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="~/css/detail.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Category</title>
+</head>
+<body>
+     <nav class="navbar navbar-dark bg-dark" >
+        <span class="navbar-brand">Dojo Shop</span>
+        <form  class="form-inline">
+            <a href="/dashboard" class="btn btn-outline-success my-2 my-sm-0">Dashboard</a>
+            <a href="/products" class="btn btn-outline-success my-2 my-sm-0">Product</a>
+            <a href="/categories" class="btn btn-outline-success my-2 my-sm-0">Category</a>
+            <a href="/logout" class="btn btn-outline-success my-2 my-sm-0">logout</a> 
+        </form>
+    </nav>
+    <div id="container">
+        <div id="kind">
+        <h1>Category Name: @ViewBag.category.name</h1>
+        <ul>
+           @foreach(var product in @ViewBag.category.CatPro){
+           <li>@product.product.name</li>
+           }
+       </ul>
+       </div>
+    <div id="middle">
+           <form action="/AddProduct" method="POST">
+           <input type="hidden" name="categoryid" value=@ViewBag.category.id>
+                <p>Add Category</p>
+                @TempData["error"]
+                <select name="productid" >
+                    @foreach(var product in @ViewBag.allProducts){
+                        <option value=@product.id>@product.name</option>
+                    }
+                </select>
+                <button type="submit">Add</button>
+           </form>
+       </div>
+    </div>
+</body>
+</html>
